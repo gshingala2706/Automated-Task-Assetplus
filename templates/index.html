@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CSV File Upload</title>
+  </head>
+  <body style="font-family:arial, sans-serif">
+    <h1 style="background:lightblue;padding:10px"> Upload your CSV file</h1>
+
+
+
+    <form method="POST" action="" enctype="multipart/form-data">
+      <p style="padding:10px"> <input type="file" name="file"> </p>
+      <p style="padding:10px"> <input type="submit" value="Submit"> </p>
+    </form>
+
+      <h3 style="background:light;padding:5px"> Note: File Must Have the following column names</h3>
+
+            <p> BP NUMBER: Customer number</p>
+            <p> METER NUMBER: Meter number installed at customer premised</p>
+            <p> METER TYPE: Type of Meter installed at customer premised</p>
+            <p> METER READING: Meter reading in integer or float</p>
+            <p> REMARKS: If any remarks </p>
+            <p> METER MONTH: Reading month in integer</p>
+            <p> METER MONTH(NAME): Reading month in str</p>
+            <p> Festival: If any Festival pertaining those months</p>
+
+
+  </body>
+</html>
